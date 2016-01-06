@@ -21,6 +21,7 @@ This is a command line application.  Simply call the program in a command shell 
 ```
 ### Installation
 There are 2 ways to install
+
 1. Build from this source with Visual Studio Desktop 2015 (free)
 2. Unzip from dist/CueMessages.zip and run CueMessage.exe
 
