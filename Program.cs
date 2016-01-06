@@ -198,6 +198,7 @@ namespace CueMessages
         {
             foreach(Message message in messages)
             {
+                Console.WriteLine("Writing Message: " + message.text);
                 writeSentence(keyboard, message.text, color1, color2, typingTime);
                 Wait(3000);
             }
