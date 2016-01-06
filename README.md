@@ -19,6 +19,34 @@ This is a command line application.  Simply call the program in a command shell 
   ]
 }
 ```
+### Installation
+There are 2 ways to install
+1. Build from this source with Visual Studio Desktop 2015 (free)
+2. Unzip from dist/CueMessages.zip and run CueMessage.exe
+
+### Command Line Arguments
+
+```
+[Option('u', "url", Required = true,
+  HelpText = "URL to query for messages")]
+
+[Option('b', "background", DefaultValue = "Black",
+  HelpText = "Background Color of the corsair keyboard")]
+
+[Option("color1", DefaultValue = "White",
+HelpText = "Color of Leds while typing")]
+
+[Option("color2", DefaultValue = "Blue",
+HelpText = "Second Color of Leds while typing")]
+
+[Option('w', "waitTime", DefaultValue = 10,
+HelpText = "Seconds to wait for each JSON API Call to URL for messages")]
+
+[Option('t',"typingTime", DefaultValue = 1000,
+HelpText = "Milliseconds between each key in message")]
+```
+
+
 
 ### Example Website
 
