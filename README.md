@@ -26,13 +26,12 @@ A website is provided that you can record your private messages for which you ca
 
 #### Setup
 1. Go to http://cue-messages.meteor.com/
-2. Click Join. Use any username or password.  E-mails dont even have to be real.
-3. Create a new list and name it.
-4. Get the alphanumeric name of list from url (e.g. 9p3pRYB4J4WG6zarf)
-5. The url for your private messages is now: http://cue-messages.meteor.com/lists-api/9p3pRYB4J4WG6zarf
-6. Now simple start cue ```CueMessage.exe -u "YOUR-URL"
-```
+2. Click Join. Use any username or password.  E-mails don't even have to be real.
+3. Create a new list, name it, and make it private with the lock button.
+4. Get the alphanumeric LIST-ID from url (e.g. 9p3pRYB4J4WG6zarf)
+5. The url for your private messages is now: http://cue-messages.meteor.com/lists-api/YOUR-LIST-ID. Notice it is **lists-api**
+6. Now simply start cue ```CueMessage.exe -u "YOUR-URL" ```
 
-Heres a gif on how to make a new list (after signing in), make it private, and get the list alphanumeric.
+Here's a gif on how to make a new list (after signing in), make it private, and get the list alphanumeric.
 
 ![alt tag](https://raw.github.com/JeremyBYU/CueMessages/master/pics/private-list.gif)
